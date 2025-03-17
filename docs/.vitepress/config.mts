@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "ICPS",
   description: "Interpreter, Compiler, Precompiler, Shell",
+  base: "/icps_site/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
